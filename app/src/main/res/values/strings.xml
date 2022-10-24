@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">quotes</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="quotes"> Citas célebres</string>
+
+
+</resources>
