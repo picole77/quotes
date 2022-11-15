@@ -9,4 +9,7 @@ interface QuoteRepository {
     suspend fun getQuote(quoteId:Int): Flow<QuoteModel>
     //suspend fun editQuote(quoteModel: QuoteModel, token:String): Flow<QuoteResponse?>
     // suspend fun addQuote(quoteModel: QuoteModel, token:String): Flow<QuoteResponse?>
+    suspend fun addQuote(quoteModel: QuoteModel)
+    suspend fun getAllQuote(): Flow<List<QuoteModel>>
+
 }

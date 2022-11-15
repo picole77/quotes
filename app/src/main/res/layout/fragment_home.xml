@@ -5,8 +5,8 @@
     android:id="@+id/viewContainer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presentation.view.randonQuorActivity"
-    android:background="@color/purple_500">
+    android:background="@color/purple_500"
+    tools:context=".presentation.view.RandomQuoteFragment">
 
     <TextView
         android:id="@+id/tvQuote"
@@ -34,5 +34,4 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
